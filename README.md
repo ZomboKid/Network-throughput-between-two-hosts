@@ -9,6 +9,8 @@ The time is detected and the result is output in bytes per second.<br/>
 !!!To work, you need to open the port on the server using iptables or firewall-cmd!!!<br/>
 To stop running client and server: ./client_thrput -k <PID> ,where <PID> is client process.<br/>
 Example to get network throughput to log:<br/>
-./client_thrput.py -s 172.16.8.2 -u root -p password -l ./net_thrput.log -port 50044 -bytes 2048 -interval 60 - run test network throughput with sending 2048 bytes with interval 60 seconds, between this host and remote server 172.16.8.2 on port 50044 and write results to file ./net_thrput.log\n\rExample to get result to console with sending default 1024 bytes:\n\r./client_thrput.py -s 172.16.8.2 -u root -p password -port 50044<br/>
+./client_thrput.py -s 172.16.8.2 -u root -p password -l ./net_thrput.log -port 50044 -bytes 2048 -interval 60 - run test network throughput with sending 2048 bytes with interval 60 seconds, between this host and remote server 172.16.8.2 on port 50044 and write results to file ./net_thrput.log<br/>
+Example to get result to console with sending default 1024 bytes:<br/>
+./client_thrput.py -s 172.16.8.2 -u root -p password -port 50044<br/>
 Example to stop client and server:<br/>
 ./client_thrput.py -k 1033 - where \"1033\" is PID of client_thrput process<br/>
