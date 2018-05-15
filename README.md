@@ -1,5 +1,5 @@
 # Network-throughput-between-two-hosts
-To run the program, you need two files:\n\r
+To run the program, you need two files:
 client_thrput.py - client\n\r
 srv_thrput.py - server n\r
 The server is automatically copied to the server and automatically launched on the server on port \"-port <PORT>\" (if \"-port <PORT>\" is not specified - random free port will be listen on server).\n\r
