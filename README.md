@@ -1,4 +1,5 @@
 # Network-throughput-between-two-hosts
+Testing network theoughput between two linux hosts.</br>
 To run the program, you need two files:<br/>
 client_thrput.py - client<br/>
 srv_thrput.py - server<br/>
